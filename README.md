@@ -14,3 +14,7 @@ BENEFITS:
 ·        How to develop powerful Python applications using one of the most powerful Integrated Development Environments on the market, IntelliJ IDEA! - Meaning you can code functional programs easier.  IntelliJ has both a FREE and PAID version, and you can use either in this course.  PyCharm will also work just fine.
 
 
+
+I am planning to cover 1 hour per day.
+
+
