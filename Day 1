@@ -1,17 +1,32 @@
-Objective
-In this challenge, we review some basic concepts that will get you started with this series. You will need to use the same (or similar) syntax to read input and write output in challenges throughout HackerRank. Check out the Tutorial tab for learning materials and an instructional video!
-
 Task
-To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. on a single line, and finally print the value of your variable on a second line.
+Complete the code in the editor below. The variables , , and  are already declared and initialized for you. You must:
 
-You've got this!
+Declare  variables: one of type int, one of type double, and one of type String.
+Read  lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your  variables.
+Use the  operator to perform the following operations:
+Print the sum of  plus your int variable on a new line.
+Print the sum of  plus your double variable to a scale of one decimal place on a new line.
+Concatenate  with the string you read as input and print the result on a new line.
 
-Note: The instructions are Java-based, but we support submissions in many popular languages. You can switch languages using the drop-down menu above your editor, and the  variable may be written differently depending on the best-practice conventions of your submission language.
 
 code:
+i = 4
+d = 4.0
+s = 'HackerRank '
+# Declare second integer, double, and String variables.
+a = int(input())
+b = float(input())
+c = input()
 
-# Read a full line of input from stdin and save it to our dynamically typed variable, input_string.
-input_string = input()
+# Read and save an integer, double, and String to your variables.
 
-# Print a string literal saying "Hello, World." to stdout.
-print('Hello, World.')
+# Print the sum of both integer variables on a new line.
+print(i + a)
+#print(i + x)
+# Print the sum of the double variables on a new line.
+print(d + b)
+#print((d + y))
+# Concatenate and print the String variables on a new line
+print(s + c)
+#print(s + z)
+# The 's' variable above should be printed first.
